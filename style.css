@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+    float: none;
+    clear: none;
+    visibility: visible;
+    opacity: 1;
+    color: #918888;
+    text-shadow: 0pt 0px 5mm #C7B6B6;
+    text-decoration: overline;
+    text-indent: 3px;
+    letter-spacing: 0.5mm;
+    word-spacing: 1mm;
+    list-style-position: outside;
+}

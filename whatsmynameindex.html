@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>3.11 What's my name again</title>
+	<style>
+		/*Write your CSS code here*/
+    .div1 {
+			will-change: transform;
+    transition: transform 450ms;
+      color:blue;
+		}
+    
+
+		.div1:hover {
+      background-color: gray;
+			transition: transform 135ms;
+      color:orange;
+    transform: translateY(100px);
+    }
+.div4 {
+        
+        background-color:black;
+  color:red;
+    }
+
+		.div4:active{
+      background-color:purple;
+      color:white;
+    }
+		div {
+			width: 100px;
+			height: 100px;
+			border: 3px solid blue;
+			font-size: 100px;
+		}
+
+		.Oclass {
+			transition: height 2s, background-color 4s;
+			color: gray;
+		}
+
+		.Oclass:hover {
+			background-color: red;
+			height: 200px;
+		}
+
+		.Gclass {
+			transition: width 4s, background-color 2s, border-width 2s;
+		}
+
+		.Gclass:hover {
+			background-color: pink;
+			width: 600px;
+			border-width: 20px;
+		}
+    .hclass {
+			transition: height 1s,
+       background-color 1s, 
+       border-width .5s;
+       color:blue;
+		}
+    .hclass:hover {
+			background-color: green;
+			width: 100px;
+			border-width: 10px;
+      
+   
+      }
+      
+    }
+    </div>
+      
+  
+      
+     
+	</style>
+
+</head>
+
+<body>
+	<!--Write your HTML code here -->
+
+	<p>Hover over each letter to see the transition effect:</p>
+
+	<div class="Oclass">A</div>
+
+	<div class="Gclass">N</div>
+  <div class="hclass">A</div>
+  <div class="div4">R</div>
+  <div class="div1">T</div>
+
+</body>
+
+</html>
+</head>
